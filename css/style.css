@@ -14,13 +14,13 @@
 }
 .contact-form h1{
  padding:2em 1px;
- color: #F97300;
+ color: grey;
 }
 .contact-form .right{
  max-width: 600px;
 }
 .contact-form .right .btn-secondary{
- background:  #F97300;
+ background:  black;
  color: #fff;
  border:0;
 }
@@ -54,6 +54,8 @@
     color:white;
 }
 
+
+
 /*Esta porción de código se usa para hacer la página adaptativa*/
 @media (min-height: 900px) {
     body {
@@ -71,15 +73,34 @@
         font-size:50px;
     }
 
+    .titleTWO{
+        font-size:60px;
+    }
+
     .parrafo {
         font-size: 30px;
     }
 
     #contacto {
-        font-size: 50px;
-        display: block;
+        display: contents;
     }
 
+    #Datos {
+        display: contents;
+
+    }
+    .form-group {
+    display: block;
+    margin: 0 0 20px;
+    overflow: hidden;
+    padding: 10px 60% 10px 0px;
+    }
+
+    .form-control {
+        height: 100px;
+        width: 650px;
+        font-size: 60px;
+    }
 
 }
 
