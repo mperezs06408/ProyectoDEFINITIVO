@@ -14,7 +14,7 @@
 }
 .contact-form h1{
  padding:2em 1px;
- color: grey;
+ color: black;
 }
 .contact-form .right{
  max-width: 600px;
@@ -54,7 +54,13 @@
     color:white;
 }
 
+#contBODY {
+    background-color:darkslategrey;
+}
 
+.contact-form {
+    background-color: white;
+}
 
 /*Esta porción de código se usa para hacer la página adaptativa*/
 @media (min-height: 900px) {
