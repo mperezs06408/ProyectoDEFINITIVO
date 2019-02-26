@@ -1,0 +1,85 @@
+/*Navbar para la página*/
+.navbar{ background:#000; }
+.nav-link , .navbar-brand{ color: white; cursor: pointer;}
+.nav-link{ margin-right: 3em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #000; }
+.navbar-collapse{ justify-content:space-around;}
+.navbar-toggler{  background:#fff !important;}
+.navbar-brand:hover{color:green;}
+
+/*Barra de contacto*/
+.contact-form{
+ margin: 6em 0;
+ position: relative;
+}
+.contact-form h1{
+ padding:2em 1px;
+ color: #F97300;
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
+
+
+/* Otras funciones debajo de este comentario */
+#first{
+    margin: 10%;
+    text-align: center;
+    background-color: rgba(0,200,200,0.3);
+}
+
+.parrafo {
+    margin: 10px;
+}
+
+/*Con esta función se le coloca negrilla a los títulos e itálica*/
+.titleONE{
+    font-weight:bold;
+    font-style: italic;
+}
+
+/* Esta función permite colocarle el fondo a la página web y el color blanco al texto dentro de él*/
+.principales{
+    background-image: url(../Images/foto_domotica.jpg);
+    background-size: 100%;
+    color:white;
+}
+
+/*Esta porción de código se usa para hacer la página adaptativa*/
+@media (min-height: 900px) {
+    body {
+        background-size: 150%;
+        background-position: center;
+    }
+    .navbar-brand {
+        font-size: 50px;
+    }
+    #first {
+        margin: 20%;
+    }
+
+    .titleONE{
+        font-size:50px;
+    }
+
+    .parrafo {
+        font-size: 30px;
+    }
+
+    #contacto {
+        font-size: 50px;
+        display: block;
+    }
+
+
+}
+
