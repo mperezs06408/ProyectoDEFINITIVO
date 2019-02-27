@@ -34,7 +34,7 @@
 #first{
     margin: 10%;
     text-align: center;
-    background-color: rgba(0,200,200,0.3);
+    background-color: rgba(0,200,200,0.5);
 }
 
 .parrafo {
@@ -54,7 +54,6 @@
     color:white;
 }
 
-
 #contBODY {
     background-color:darkslategrey;
 }
@@ -73,6 +72,76 @@ img{
     height: 400px;
     width: 450px;
 }
+
+#divTeamWork{
+    margin: 5%;
+    text-align: center;
+    background-color: rgb(250, 250, 215);
+}
+
+/* default for mobile (Mobile first) */
+  .imagen-adaptativa1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    width: 40%;
+  }
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media (max-width: 959px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 35%;
+      width: 35%;
+    }
+  }
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media (min-width: 769px) and (max-width: 959px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 50%;
+      width:50%;
+    }
+  }
+
+  /* All Mobile Sizes (devices and browser) */
+  @media (max-width: 767px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 65%;
+      width: 65%;
+    }
+  }
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media (min-width: 577px) and (max-width: 767px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 70%;
+      width: 70%;
+    }
+  }
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media (max-width: 576px) {
+    .imagen-adaptativa1 {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 80%;
+      width: 80%;
+    }
+  }
 
 
 /*Esta porción de código se usa para hacer la página adaptativa*/
@@ -123,7 +192,7 @@ img{
 
 }
 
-/* Modificar el titulos, imagenes y demas elementos en la pagina sabermas*/
+/* Modificar el titulo principal de la pagina sabermas*/
 
 #titulo1{
 
@@ -141,36 +210,4 @@ img{
     font-size:25px;
     font-family:'Helvetica';
 }
-
-#luz_negro_azul{
-  max-width: 100%;
-  display: block;
-  height: auto;
-}
-
-<style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5 {
-    background: PaleGreen;
-  }
-
-  .container {
-    font-size: 40px;
-    min-height: 300px;
-    width: 100%;
-    background: LightGray;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    grid-template-areas:
-      "header header header"
-      "advert content content"
-      "footer footer footer";
-  }
-</style>
-
 
