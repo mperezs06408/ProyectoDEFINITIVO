@@ -211,38 +211,10 @@ img{
     font-family:'Helvetica';
 }
 
-<<<<<<< HEAD
 #luz_negro_azul{
   max-width: 100%;
   display: block;
   height: auto;
 }
 
-<style>
-  .item1{background:LightSkyBlue;}
-  .item2{background:LightSalmon;}
-  .item3{background:PaleTurquoise;}
-  .item4{background:LightPink;}
-  .item5 {
-    background: PaleGreen;
-  }
 
-  .container {
-    font-size: 40px;
-    min-height: 300px;
-    width: 100%;
-    background: LightYellow;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
-    grid-template-areas:
-      "header header header"
-      "advert content content"
-      "footer footer footer";
-  }
-</style>
-
-
-=======
->>>>>>> proyecto_FINALDEFINITIVO/master
