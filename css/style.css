@@ -54,11 +54,6 @@
     color:white;
 }
 
-/* Esta función permite colocarle el un fondo diferente a la pagina de saber mas */
-.principales{
-    background-image: url(../Images/smart-home-3317440_1920);
-    background-size: 100%;
-}
 
 #contBODY {
     background-color:darkslategrey;
@@ -128,7 +123,7 @@ img{
 
 }
 
-/* Modificar el titulo principal de la pagina sabermas*/
+/* Modificar el titulos, imagenes y demas elementos en la pagina sabermas*/
 
 #titulo1{
 
@@ -146,4 +141,36 @@ img{
     font-size:25px;
     font-family:'Helvetica';
 }
+
+#luz_negro_azul{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+<style>
+  .item1{background:LightSkyBlue;}
+  .item2{background:LightSalmon;}
+  .item3{background:PaleTurquoise;}
+  .item4{background:LightPink;}
+  .item5 {
+    background: PaleGreen;
+  }
+
+  .container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas:
+      "header header header"
+      "advert content content"
+      "footer footer footer";
+  }
+</style>
+
 
