@@ -62,6 +62,18 @@
     background-color: white;
 }
 
+.info{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 400px;
+    width: 450px;
+}
+
+
 /*Esta porción de código se usa para hacer la página adaptativa*/
 @media (min-height: 900px) {
     body {
