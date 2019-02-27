@@ -161,7 +161,7 @@ img{
     font-size: 40px;
     min-height: 300px;
     width: 100%;
-    background: LightGray;
+    background: LightYellow;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
