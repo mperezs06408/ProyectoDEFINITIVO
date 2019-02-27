@@ -54,6 +54,12 @@
     color:white;
 }
 
+/* Esta función permite colocarle el un fondo diferente a la pagina de saber mas */
+.principales{
+    background-image: url(../Images/smart-home-3317440_1920);
+    background-size: 100%;
+}
+
 #contBODY {
     background-color:darkslategrey;
 }
