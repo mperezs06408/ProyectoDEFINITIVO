@@ -10,3 +10,9 @@ Este sí es el proyecto final del corte
 -> Se agregan las primeras clases de CSS3 para encerrar cajas de texto con sus diferentes atributos y propiedades para cumplir el esquema del MockUp
 
 -> Fue agregado el Grid lateral y se solucionó el error para que los Grid de DOMÓTICA y BENEFICIOS quedaran paralelos el uno del otro.
+
+-> Fue mejorada la responsividad de la página de contacto
+
+-> Se cambió el nombre de la sección Saber más por Acerca de
+
+-> Fue cambiada la imagen de fondo de Contacto por la imagen general del index
