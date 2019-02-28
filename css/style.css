@@ -46,6 +46,7 @@
 .titleONE{
     font-weight:bold;
     font-style: italic;
+    color:white;
 }
 
 /* Esta función permite colocarle el fondo a la página web y el color blanco al texto dentro de él*/
@@ -64,8 +65,6 @@
 
 .info{
     text-align: justify;
-    color:black;
-
 }
 h1{
     text-align: center;
@@ -74,7 +73,6 @@ h1{
 
 h2{
     text-align: center;
-    color:black;
 }
 img{
     height: 400px;
@@ -84,12 +82,7 @@ img{
 #divTeamWork{
     margin: 5%;
     text-align: center;
-<<<<<<< HEAD
-    /*background-color: rgb(43, 53, 158)*/
-    background-image: url(../Images/light_natural_2.jpg);
-=======
-    background-color: rgba(43, 53, 158,0.85);
->>>>>>> proyecto_FINALDEFINITIVO/master
+    background-color: rgba(0, 0, 0,0.8);
 }
 
 #grupoTrabajo {
@@ -166,7 +159,7 @@ img{
 
 /*Esta porción de código se usa para hacer la página adaptativa*/
 @media (min-height: 900px) {
-    .principales {
+    .principales .secondary {
         background-size: 300%;
         background-position: center;
     }
@@ -184,6 +177,7 @@ img{
     .titleTWO{
         font-size:60px;
         font-weight: bold;
+        color:white;
     }
 
     .parrafo {
@@ -250,3 +244,9 @@ img{
 
 
 
+
+.secondary {
+    color:white;
+    background-image: url(../Images/light_natural_2.jpg);
+    background-size: 100%;
+}
