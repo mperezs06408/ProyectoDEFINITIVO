@@ -63,9 +63,17 @@
 
 .info{
     text-align: justify;
+    color:white;
+
 }
 h1{
     text-align: center;
+    color:white;
+}
+
+h2{
+    text-align: center;
+    color:white;
 }
 img{
     height: 400px;
@@ -75,7 +83,7 @@ img{
 #divTeamWork{
     margin: 5%;
     text-align: center;
-    background-color: rgb(250, 250, 215);
+    background-color: rgb(43, 53, 158)
 }
 
 /* default for mobile (Mobile first) */
