@@ -82,7 +82,7 @@ img{
 #divTeamWork{
     margin: 5%;
     text-align: center;
-    background-color: rgba(0, 0, 0,0.8);
+    background-color: rgba(255, 255, 255,0.6);
 }
 
 #grupoTrabajo {
@@ -92,6 +92,7 @@ img{
 .integrantes {
     margin: 0 10% 10px 10%;
     display: block;
+    color: black;
 }
 /* default for mobile (Mobile first) */
   .imagen-adaptativa1 {
@@ -162,6 +163,7 @@ img{
     .principales .secondary {
         background-size: 300%;
         background-position: center;
+
     }
     .navbar-brand {
         font-size: 50px;
@@ -177,7 +179,12 @@ img{
     .titleTWO{
         font-size:60px;
         font-weight: bold;
-        color:white;
+    }
+
+    .titleTHREE {
+        font-size: 80px;
+        font-style: italic;
+
     }
 
     .parrafo {
@@ -250,3 +257,10 @@ img{
     background-image: url(../Images/light_natural_2.jpg);
     background-size: 100%;
 }
+
+.titleTHREE {
+    font-weight: bold;
+
+}
+
+
