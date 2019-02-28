@@ -23,6 +23,7 @@
  background:  black;
  color: #fff;
  border:0;
+
 }
 .contact-form .right .form-control::placeholder{
  color: #888;
@@ -54,9 +55,7 @@
     color:white;
 }
 
-#contBODY {
-    background-color:darkslategrey;
-}
+
 
 .contact-form {
     background-color: white;
@@ -179,9 +178,8 @@ img{
     }
     .form-group {
     display: block;
-    margin: 0 0 20px;
+    margin: 10px;
     overflow: hidden;
-    padding: 10px 60% 10px 0px;
     }
 
     .form-control {
@@ -189,7 +187,10 @@ img{
         width: 650px;
         font-size: 60px;
     }
-
+    .contact-form .right .form-control::placeholder{
+         color: #888;
+         font-size: 40px;
+    }
 }
 
 /* Modificar el titulo principal de la pagina sabermas*/
