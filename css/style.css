@@ -53,7 +53,7 @@
     background-image: url(../Images/foto_domotica.jpg);
     background-size: 100%;
     color:white;
-    background-position: center;
+    background-position: top;
 }
 
 
@@ -84,15 +84,26 @@ img{
 #divTeamWork{
     margin: 5%;
     text-align: center;
+<<<<<<< HEAD
     /*background-color: rgb(43, 53, 158)*/
     background-image: url(../Images/light_natural_2.jpg);
+=======
+    background-color: rgba(43, 53, 158,0.85);
+>>>>>>> proyecto_FINALDEFINITIVO/master
 }
 
+#grupoTrabajo {
+    margin: 10px;
+}
+
+.integrantes {
+    margin: 0 10% 10px 10%;
+    display: block;
+}
 /* default for mobile (Mobile first) */
   .imagen-adaptativa1 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 40%;
     width: 40%;
   }
@@ -172,6 +183,7 @@ img{
 
     .titleTWO{
         font-size:60px;
+        font-weight: bold;
     }
 
     .parrafo {
@@ -200,6 +212,13 @@ img{
     .contact-form .right .form-control::placeholder{
          color: #888;
          font-size: 40px;
+    }
+    .imagen-adaptativa1 {
+        width: 90%;
+    }
+    .integrantes{
+        font-size: 40px;
+        margin-top: 1em;
     }
 }
 
