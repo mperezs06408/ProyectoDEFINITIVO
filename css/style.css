@@ -53,6 +53,7 @@
     background-image: url(../Images/foto_domotica.jpg);
     background-size: 100%;
     color:white;
+    background-position: center;
 }
 
 
@@ -153,8 +154,8 @@ img{
 
 /*Esta porción de código se usa para hacer la página adaptativa*/
 @media (min-height: 900px) {
-    body {
-        background-size: 150%;
+    .principales {
+        background-size: 300%;
         background-position: center;
     }
     .navbar-brand {
