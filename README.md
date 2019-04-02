@@ -1,7 +1,7 @@
 # ProyectoDEFINITIVO
 Este sí es el proyecto final del corte
 
-Avances semana 25 de febrero
+Avances al 02 de abril
 
 -> Primeros avances del proyecto, se establece la estructura básica de HTML5 y se vincula con la hoja de estilo CSS3.
 
